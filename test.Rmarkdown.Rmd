@@ -22,7 +22,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=FALSE,dev=c('png', 'pdf')}
 plot(pressure)
 ```
 
